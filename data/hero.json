@@ -1,0 +1,133 @@
+{
+  "greeting": "Hi there!",
+  "name": "Jigyasa",
+  "description": "Data Engineer with 3+ years of experience designing scalable ETL/ELT pipelines, cloud-native data platforms, and real-time data processing solutions across healthcare, banking, and e-commerce domains using Python, SQL, PySpark, Spark, Kafka, Databricks, Snowflake, and AWS.",
+  "tagline": "Data Engineer",
+  "avatarUrl": "",
+  "socialLinks": [
+    {
+      "icon": "fab fa-github",
+      "url": "https://github.com/Jigyasa777",
+      "label": "GitHub"
+    },
+    {
+      "icon": "fab fa-linkedin",
+      "url": "https://linkedin.com/in/jigyasa-kang-j7",
+      "label": "LinkedIn"
+    },
+    {
+      "icon": "fas fa-envelope",
+      "url": "mailto:jigyasa17034@gmail.com",
+      "label": "Email"
+    }
+  ],
+  "techBadges": [
+    {
+      "icon": "fab fa-python",
+      "label": "Python"
+    },
+    {
+      "icon": "fas fa-database",
+      "label": "SQL"
+    },
+    {
+      "icon": "fas fa-chart-line",
+      "label": "PySpark"
+    },
+    {
+      "icon": "fas fa-bolt",
+      "label": "Apache Spark"
+    },
+    {
+      "icon": "fas fa-chart-line",
+      "label": "Spark Structured Streaming"
+    },
+    {
+      "icon": "fas fa-stream",
+      "label": "Apache Kafka"
+    },
+    {
+      "icon": "fas fa-circle",
+      "label": "Delta Lake"
+    },
+    {
+      "icon": "fas fa-robot",
+      "label": "OpenAI API"
+    }
+  ],
+  "terminalCommands": {
+    "about": {
+      "title": "About Me",
+      "content": "Data Engineer with 1+ years of experience building scalable web applications.",
+      "highlights": [
+        "Working with Python",
+        "Working with SQL",
+        "Working with PySpark"
+      ]
+    },
+    "skills": [
+      "Python",
+      "SQL",
+      "PySpark",
+      "Apache Spark",
+      "Spark Structured Streaming",
+      "Apache Kafka",
+      "Delta Lake",
+      "OpenAI API",
+      "Claude AI",
+      "LangChain",
+      "Retrieval-Augmented Generation (RAG)",
+      "Vector Embeddings",
+      "AI-Assisted Data Engineering",
+      "AWS (S3, Glue, Lambda, EMR, CloudWatch)",
+      "Databricks",
+      "Snowflake"
+    ],
+    "experience": [
+      {
+        "company": "Ballad Health, USA",
+        "title": "Data Engineer",
+        "period": "Oct 2025 – Present",
+        "location": ""
+      },
+      {
+        "company": "Elevance health, USA",
+        "title": "Data Engineer Intern",
+        "period": "Jul 2025 – Sep 2025",
+        "location": ""
+      },
+      {
+        "company": "Mphasis, India",
+        "title": "Data Engineer",
+        "period": "Jan 2021 – Jul 2023",
+        "location": ""
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master of Information Systems",
+        "institution": "East Tennessee State University",
+        "period": "May 2025"
+      },
+      {
+        "degree": "Bachelor of Computer Applications",
+        "institution": "Amity University",
+        "period": "May 2022"
+      }
+    ],
+    "contact": {
+      "email": "jigyasa17034@gmail.com",
+      "website": "",
+      "github": "https://github.com/Jigyasa777",
+      "linkedin": "https://linkedin.com/in/jigyasa-kang-j7"
+    }
+  },
+  "terminalLines": [
+    "$ whoami",
+    "Jigyasa",
+    "$ cat role.txt",
+    "Data Engineer",
+    "$ ls skills/",
+    "Python  SQL  PySpark  Apache Spark  Spark Structured Streaming"
+  ]
+}

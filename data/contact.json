@@ -1,0 +1,26 @@
+{
+  "heading": "GET IN TOUCH",
+  "subheading": "Let's build something amazing together",
+  "links": [
+    {
+      "icon": "fab fa-linkedin",
+      "label": "LinkedIn",
+      "url": "https://linkedin.com/in/jigyasa-kang-j7",
+      "color": "#66d9ef"
+    },
+    {
+      "icon": "fab fa-github",
+      "label": "GitHub",
+      "url": "https://github.com/Jigyasa777",
+      "color": "#ffd93d"
+    },
+    {
+      "icon": "fas fa-envelope",
+      "label": "Email",
+      "url": "mailto:jigyasa17034@gmail.com",
+      "color": "#ff6b9d"
+    }
+  ],
+  "email": "jigyasa17034@gmail.com",
+  "availability": "Open to opportunities"
+}

@@ -1,0 +1,301 @@
+{
+  "heading": "SKILLS",
+  "categories": [
+    {
+      "name": "Languages",
+      "icon": "fas fa-code",
+      "items": [
+        {
+          "name": "Python",
+          "icon": "fab fa-python"
+        },
+        {
+          "name": "SQL",
+          "icon": "fas fa-database"
+        },
+        {
+          "name": "PySpark",
+          "icon": "fas fa-chart-line"
+        }
+      ]
+    },
+    {
+      "name": "Frameworks & Libraries",
+      "icon": "fas fa-layer-group",
+      "items": [
+        {
+          "name": "Apache Spark",
+          "icon": "fas fa-bolt"
+        },
+        {
+          "name": "Spark Structured Streaming",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Apache Kafka",
+          "icon": "fas fa-stream"
+        },
+        {
+          "name": "Delta Lake",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "OpenAI API",
+          "icon": "fas fa-robot"
+        },
+        {
+          "name": "Claude AI",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "LangChain",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "Retrieval-Augmented Generation (RAG)",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Vector Embeddings",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "AI-Assisted Data Engineering",
+          "icon": "fas fa-chart-line"
+        }
+      ]
+    },
+    {
+      "name": "Tools & Platforms",
+      "icon": "fas fa-tools",
+      "items": [
+        {
+          "name": "AWS (S3, Glue, Lambda, EMR, CloudWatch)",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Databricks",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Snowflake",
+          "icon": "fas fa-snowflake"
+        },
+        {
+          "name": "PostgreSQL",
+          "icon": "fas fa-database"
+        },
+        {
+          "name": "Amazon S3",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "Apache Airflow",
+          "icon": "fas fa-wind"
+        },
+        {
+          "name": "Great Expectations",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Unity Catalog",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "Docker",
+          "icon": "fab fa-docker"
+        },
+        {
+          "name": "Kubernetes",
+          "icon": "fas fa-dharmachakra"
+        },
+        {
+          "name": "Terraform",
+          "icon": "fas fa-code-branch"
+        },
+        {
+          "name": "Git",
+          "icon": "fab fa-git-alt"
+        },
+        {
+          "name": "GitHub Actions",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "Jenkins",
+          "icon": "fas fa-sync-alt"
+        },
+        {
+          "name": "CI/CD",
+          "icon": "fas fa-sync-alt"
+        },
+        {
+          "name": "Power BI",
+          "icon": "fas fa-chart-bar"
+        }
+      ]
+    },
+    {
+      "name": "Technical Skills",
+      "icon": "fas fa-cogs",
+      "items": [
+        {
+          "name": "ETL/ELT Development",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "Data Pipelines",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "Batch & Real Time Data Processing",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Data Ingestion",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "Data Integration",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Data Transformation",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Data Modeling",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "Data Warehousing",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Lakehouse Architecture",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Data Governance & Quality",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Data Quality",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "Data Governance",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Data Lineage",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "Metadata Management",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "Performance Engineering",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Query Optimization",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Spark Optimization",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Partitioning",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Caching",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "Workload Tuning",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Cost Optimization",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "Monitoring & Observability",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Data Observability",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Logging",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "Monitoring",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "MTTR Reduction",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Analytics & Visualization",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "Operational Reporting",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Dashboard Development",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Software Engineering",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Distributed Systems",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "REST APIs",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Agile Methodologies",
+          "icon": "fas fa-sync-alt"
+        },
+        {
+          "name": "SDLC",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "Unit Testing",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "Code Reviews",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Version Control",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Scalable System Design",
+          "icon": "fas fa-cog"
+        },
+        {
+          "name": "Cross-Functional Collaboration",
+          "icon": "fas fa-chart-line"
+        }
+      ]
+    }
+  ]
+}

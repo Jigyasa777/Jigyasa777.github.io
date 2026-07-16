@@ -1,0 +1,44 @@
+{
+  "heading": "ABOUT",
+  "paragraphs": [
+    {
+      "text": "Data Engineer with 3+ years of experience designing scalable ETL/ELT pipelines, cloud-native data platforms, and real-time data processing solutions across healthcare, banking, and e-commerce domains using Python, SQL, PySpark, Spark, Kafka, Databricks, Snowflake, and AWS. Experienced in building modern Lakehouse architectures, optimizing distributed data pipelines, and implementing data quality, governance, and CI/CD practices to deliver reliable, high-performance analytics solutions. Hands-on experience with AI-powered data engineering using OpenAI, Retrieval-Augmented Generation (RAG), LangChain, Claude AI, AWS Lambda, and cloud technologies to develop intelligent, data-driven applications. Strong collaborator with a proven ability to partner with cross-functional teams to deliver secure, scalable, and business-focused data solutions that improve operational efficiency and support data-driven decision-making.",
+      "highlights": []
+    },
+    {
+      "text": "Experienced data engineer with {yearsExp} of hands-on experience across {industries}.",
+      "highlights": [
+        {
+          "text": "1+ years",
+          "color": "yellow",
+          "key": "yearsExp"
+        },
+        {
+          "text": "banking, healthcare, e-commerce",
+          "color": "pink",
+          "key": "industries"
+        }
+      ]
+    },
+    {
+      "text": "I bring a unique blend of {blend1}, {blend2}, and a genuine enthusiasm for {blend3}.",
+      "highlights": [
+        {
+          "text": "technical expertise",
+          "color": "yellow",
+          "key": "blend1"
+        },
+        {
+          "text": "collaborative leadership",
+          "color": "green",
+          "key": "blend2"
+        },
+        {
+          "text": "building impactful solutions",
+          "color": "cyan",
+          "key": "blend3"
+        }
+      ]
+    }
+  ]
+}

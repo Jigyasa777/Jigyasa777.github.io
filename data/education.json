@@ -1,0 +1,31 @@
+{
+  "heading": "EDUCATION",
+  "entries": [
+    {
+      "degree": "Master of Information Systems",
+      "institution": "East Tennessee State University",
+      "startDate": "2025",
+      "endDate": "",
+      "gpa": "",
+      "honors": []
+    },
+    {
+      "degree": "Bachelor of Computer Applications",
+      "institution": "Amity University",
+      "startDate": "2022",
+      "endDate": "",
+      "gpa": "",
+      "honors": []
+    }
+  ],
+  "certifications": [
+    "Epic Caboodle Data Model Certified",
+    "Epic Clarity Data Model Certified",
+    "Epic Cogito Certified",
+    "Epic Clinical Data Model",
+    "Epic Revenue Data Model",
+    "CompTIA Security+",
+    "Google Data Analytics Certificate"
+  ],
+  "languages": []
+}

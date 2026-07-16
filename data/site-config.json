@@ -1,0 +1,31 @@
+{
+  "siteName": "Jigyasa | Data Engineer",
+  "theme": "light",
+  "loaderInitials": [
+    "J"
+  ],
+  "metaDescription": "Jigyasa — Data Engineer. Portfolio showcasing professional experience, skills, and projects.",
+  "metaKeywords": "Jigyasa, Data Engineer, Portfolio",
+  "progressCheckpoints": [
+    {
+      "id": "hero",
+      "label": "Home"
+    },
+    {
+      "id": "about",
+      "label": "About"
+    },
+    {
+      "id": "experience",
+      "label": "Journey"
+    },
+    {
+      "id": "skills",
+      "label": "Skills"
+    },
+    {
+      "id": "contact",
+      "label": "Contact"
+    }
+  ]
+}

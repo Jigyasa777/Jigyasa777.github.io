@@ -1,0 +1,170 @@
+{
+  "heading": "Projects",
+  "projects": [
+    {
+      "name": "Healthcare Analytics Dashboard",
+      "description": "Built KPI dashboards integrating clinical and revenue datasets using Power BI and SQL.",
+      "technologies": [
+        "Power BI",
+        "SQL"
+      ],
+      "liveUrl": "",
+      "githubUrl": ""
+    },
+    {
+      "name": "Mental Health NLP Analytics",
+      "description": "Applied sentiment analysis, topic modeling, and predictive modeling techniques on qualitative datasets.",
+      "technologies": [],
+      "liveUrl": "",
+      "githubUrl": ""
+    },
+    {
+      "name": "Student Analytics Platform",
+      "description": "Developed Flask + SQL + Power BI analytics system for real-time reporting.",
+      "technologies": [
+        "Flask",
+        "SQL",
+        "Power BI"
+      ],
+      "liveUrl": "",
+      "githubUrl": ""
+    },
+    {
+      "name": "retail-data-analytics-project-python-sql-integration",
+      "description": "Educational project for mastering software architecture",
+      "technologies": [
+        "Jupyter Notebook",
+        "Python"
+      ],
+      "liveUrl": "https://github.com/Jigyasa777/retail-data-analytics-project-python-sql-integration",
+      "githubUrl": "https://github.com/Jigyasa777/retail-data-analytics-project-python-sql-integration"
+    },
+    {
+      "name": "data-analytics-customer-segmentation",
+      "description": "Personal project for exploring modern development practices",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "liveUrl": "https://github.com/Jigyasa777/data-analytics-customer-segmentation",
+      "githubUrl": "https://github.com/Jigyasa777/data-analytics-customer-segmentation"
+    },
+    {
+      "name": "customer-trends-data-analysis-sql-python-powerbi",
+      "description": "Hands-on learning experience with modern frameworks",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "liveUrl": "https://github.com/Jigyasa777/customer-trends-data-analysis-sql-python-powerbi",
+      "githubUrl": "https://github.com/Jigyasa777/customer-trends-data-analysis-sql-python-powerbi"
+    },
+    {
+      "name": "cohort_analysis",
+      "description": "Comprehensive project exploring software design patterns",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "liveUrl": "https://github.com/Jigyasa777/cohort_analysis",
+      "githubUrl": "https://github.com/Jigyasa777/cohort_analysis"
+    },
+    {
+      "name": "Jigyasa.github",
+      "description": "My Personal Portfolio",
+      "technologies": [
+        "HTML"
+      ],
+      "liveUrl": "https://github.com/Jigyasa777/Jigyasa.github",
+      "githubUrl": "https://github.com/Jigyasa777/Jigyasa.github"
+    },
+    {
+      "name": "multi-source-marketing-analytics",
+      "description": "Portfolio project showcasing development capabilities",
+      "technologies": [],
+      "liveUrl": "https://github.com/Jigyasa777/multi-source-marketing-analytics",
+      "githubUrl": "https://github.com/Jigyasa777/multi-source-marketing-analytics"
+    },
+    {
+      "name": "sales-insights-data-analysis-using-tableau-and-sql",
+      "description": "Learning project built with modern web technologies",
+      "technologies": [],
+      "liveUrl": "https://github.com/Jigyasa777/sales-insights-data-analysis-using-tableau-and-sql",
+      "githubUrl": "https://github.com/Jigyasa777/sales-insights-data-analysis-using-tableau-and-sql"
+    },
+    {
+      "name": "power-bi-mastery-dynamic-dashboards-advanced-dax",
+      "description": "Learning project built with modern web technologies",
+      "technologies": [],
+      "liveUrl": "https://github.com/Jigyasa777/power-bi-mastery-dynamic-dashboards-advanced-dax",
+      "githubUrl": "https://github.com/Jigyasa777/power-bi-mastery-dynamic-dashboards-advanced-dax"
+    },
+    {
+      "name": "sql-for-financial-data-analysis",
+      "description": "Practice repository for exploring advanced features",
+      "technologies": [],
+      "liveUrl": "https://github.com/Jigyasa777/sql-for-financial-data-analysis",
+      "githubUrl": "https://github.com/Jigyasa777/sql-for-financial-data-analysis"
+    },
+    {
+      "name": "supply-chain-analysis-in-the-fmcg-domain-atliqmart",
+      "description": "Interactive application built for continuous learning",
+      "technologies": [],
+      "liveUrl": "https://github.com/Jigyasa777/supply-chain-analysis-in-the-fmcg-domain-atliqmart",
+      "githubUrl": "https://github.com/Jigyasa777/supply-chain-analysis-in-the-fmcg-domain-atliqmart"
+    },
+    {
+      "name": "analytics-engineering-prototype",
+      "description": "Interactive application built for continuous learning",
+      "technologies": [],
+      "liveUrl": "https://github.com/Jigyasa777/analytics-engineering-prototype",
+      "githubUrl": "https://github.com/Jigyasa777/analytics-engineering-prototype"
+    },
+    {
+      "name": "contribution-history",
+      "description": "Generated GitHub contribution history",
+      "technologies": [],
+      "liveUrl": "https://github.com/Jigyasa777/contribution-history",
+      "githubUrl": "https://github.com/Jigyasa777/contribution-history"
+    },
+    {
+      "name": "secure-sdlc-capstone",
+      "description": "GitHub repository: secure-sdlc-capstone",
+      "technologies": [
+        "Python",
+        "HTML"
+      ],
+      "liveUrl": "https://github.com/Jigyasa777/secure-sdlc-capstone",
+      "githubUrl": "https://github.com/Jigyasa777/secure-sdlc-capstone"
+    },
+    {
+      "name": "-health-clinical-dashboard",
+      "description": "GitHub repository: -health-clinical-dashboard",
+      "technologies": [
+        "Python",
+        "HTML"
+      ],
+      "liveUrl": "https://github.com/Jigyasa777/-health-clinical-dashboard",
+      "githubUrl": "https://github.com/Jigyasa777/-health-clinical-dashboard"
+    },
+    {
+      "name": "eCTF-dASHBOARD",
+      "description": "GitHub repository: eCTF-dASHBOARD",
+      "technologies": [
+        "Python",
+        "HTML",
+        "PowerShell",
+        "CSS",
+        "JavaScript",
+        "C",
+        "Batchfile"
+      ],
+      "liveUrl": "https://github.com/Jigyasa777/eCTF-dASHBOARD",
+      "githubUrl": "https://github.com/Jigyasa777/eCTF-dASHBOARD"
+    },
+    {
+      "name": "secure-sdlc-pipeline",
+      "description": "GitHub repository: secure-sdlc-pipeline",
+      "technologies": [],
+      "liveUrl": "https://github.com/Jigyasa777/secure-sdlc-pipeline",
+      "githubUrl": "https://github.com/Jigyasa777/secure-sdlc-pipeline"
+    }
+  ]
+}

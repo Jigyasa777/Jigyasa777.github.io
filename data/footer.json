@@ -1,0 +1,41 @@
+{
+  "brandName": "JIGYASA",
+  "brandTitle": "Data Engineer",
+  "navLinks": [
+    {
+      "label": "Home",
+      "href": "#hero"
+    },
+    {
+      "label": "About",
+      "href": "#about"
+    },
+    {
+      "label": "Experience",
+      "href": "#experience"
+    },
+    {
+      "label": "Skills",
+      "href": "#skills"
+    }
+  ],
+  "socialLinks": [
+    {
+      "icon": "fab fa-github",
+      "url": "https://github.com/Jigyasa777",
+      "label": "GitHub"
+    },
+    {
+      "icon": "fab fa-linkedin",
+      "url": "https://linkedin.com/in/jigyasa-kang-j7",
+      "label": "LinkedIn"
+    },
+    {
+      "icon": "fas fa-envelope",
+      "url": "mailto:jigyasa17034@gmail.com",
+      "label": "Email"
+    }
+  ],
+  "copyright": "Jigyasa",
+  "year": "2026"
+}
