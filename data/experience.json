@@ -4,6 +4,7 @@
     {
       "title": "Data Engineer",
       "company": "Ballad Health, USA",
+      "logo": "assets/logos/ballad.svg",
       "startDate": "Oct 2025",
       "endDate": "Present",
       "description": "Architected cloud-native healthcare data platforms using AWS, Databricks, PySpark, Delta Lake, Snowflake, and Apache Airflow to consolidate EHR, claims, and clinical datasets into enterprise Lakehouse architectures improving data availability for over 1,200 clinicians, analysts, and operational teams while strengthening healthcare reporting accuracy.\nEngineered scalable batch and streaming ETL pipelines using Spark Structured Streaming, Kafka, AWS Lambda, S3, and Glue to process more than 35 million healthcare events every month, reducing end-to-end data latency from 5 hours to under 45 minutes for patient care analytics and operational reporting.\nDeveloped AI-assisted clinical data intelligence solutions using OpenAI APIs, Retrieval-Augmented Generation (RAG), LangChain, Vector Embeddings, and Claude AI to automate metadata discovery, clinical documentation search, and knowledge retrieval reducing manual investigation effort by 40% for data engineering and analytics teams.\nImplemented enterprise-grade data quality, governance, and observability frameworks using Great Expectations, Unity Catalog, CloudWatch, ML-based anomaly detection, and automated lineage tracking to improve regulatory compliance, reduce production incidents, and decrease MTTR by 45% for critical healthcare data pipelines.\nOptimized distributed Spark workloads through partitioning, Delta optimization, caching, and workload tuning to reduce cloud infrastructure costs by 28% while improving SLA compliance across patient analytics, financial reporting, and population health initiatives.\nCollaborated with architects, data scientists, ML engineers, and business stakeholders to deliver secure cloud-native data products using Terraform, Docker, Kubernetes, GitHub Actions, CI/CD, and AWS services, enabling scalable AI-ready data platforms supporting predictive healthcare analytics and enterprise decision making.",
@@ -45,7 +46,8 @@
     },
     {
       "title": "Data Engineer Intern",
-      "company": "Elevance health, USA",
+      "company": "Elevance Health, USA",
+      "logo": "assets/logos/elevance.svg",
       "startDate": "Jul 2025",
       "endDate": "Sep 2025",
       "description": "Developed ETL workflows using Python, PySpark, AWS Glue, and S3 to ingest and process member claims, eligibility, and healthcare transaction datasets supporting regulatory reporting and internal analytics across multiple health plan systems.\nMigrated and validated analytical datasets into Snowflake by implementing automated data reconciliation scripts and SQL query optimization, reducing manual validation effort by 30% and improving reporting accuracy for healthcare operations teams.\nSupported data quality validation and compliance checks using Great Expectations aligned with HIPAA standards, ensuring data integrity across member and claims datasets for downstream analytics and operational reporting.",
@@ -68,6 +70,7 @@
     {
       "title": "Data Engineer",
       "company": "Mphasis, India",
+      "logo": "assets/logos/mphasis.svg",
       "startDate": "Jan 2021",
       "endDate": "Jul 2023",
       "description": "Designed and developed scalable ETL and ELT pipelines using PySpark, SQL, Apache Spark, Kafka, Hive, Airflow, and Hadoop to integrate customer, order, inventory, and seller datasets supporting enterprise-wide analytics and operational reporting across multiple business functions.\nBuilt real-time data ingestion pipelines using Kafka, Spark Structured Streaming, and Delta Lake to process more than 120 million e-commerce events daily, enabling faster inventory visibility and improving order fulfillment decisions for supply chain and marketplace operations.\nModernized legacy batch processing workflows by implementing cloud-based data engineering solutions on AWS S3, EMR, Glue, and Redshift, reducing end-to-end pipeline execution time by 38% while improving platform scalability and operational efficiency.\nDeveloped dimensional data models and optimized SQL transformations for business intelligence platforms using Snowflake, PostgreSQL, and Power BI, improving dashboard performance and enabling faster reporting for merchandising, pricing, and customer analytics teams.\nEstablished automated data quality validation, metadata management, and CI/CD deployment processes using Great Expectations, Git, Jenkins, Docker, and Terraform to improve release reliability, reduce production defects, and ensure consistent delivery of enterprise data products.\nPartnered with software engineers, product managers, and business analysts to deliver secure, scalable, and reusable data services using modern software engineering practices including Agile, code reviews, unit testing, REST APIs, distributed systems, and cloud-native architecture, accelerating data delivery for multiple business initiatives.",

@@ -303,7 +303,10 @@
       <div class="timeline-item-flat">
         <div class="timeline-dot"></div>
         <div class="timeline-content-flat">
-          <h4 class="timeline-title">${escapeHtml(pos.title)} @ ${escapeHtml(pos.company)}</h4>
+          <div class="timeline-heading-row">
+            ${pos.logo ? `<img class="timeline-logo" src="${escapeHtml(pos.logo)}" alt="${escapeHtml(pos.company)} logo" width="152" height="56" loading="lazy">` : ''}
+            <h4 class="timeline-title">${escapeHtml(pos.title)} @ ${escapeHtml(pos.company)}</h4>
+          </div>
           <p class="timeline-date">${escapeHtml(pos.startDate)} - ${escapeHtml(pos.endDate || 'Present')}</p>
           <p class="timeline-description">${escapeHtml(pos.description)}</p>
           <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> ${escapeHtml(pos.location || '')}</p>
