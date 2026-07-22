@@ -1,0 +1,9 @@
+<svg viewBox="4 10 116 78" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ballad Health">
+  <g transform="translate(4 10)">
+    <path d="M39 0C17 0 0 17 0 39c0 22 17 39 39 39h18V0H39Z" fill="#F15A4A"/>
+    <path d="M57 0v78h20c22 0 39-17 39-39S99 0 77 0H57Z" fill="#7254A3"/>
+    <path d="M39 20c-11 0-20 9-20 20s9 20 20 20h18V20H39Z" fill="#F4A33B"/>
+    <path d="M57 20v40h20c11 0 20-9 20-20s-9-20-20-20H57Z" fill="#1D9ED0"/>
+    <path d="M39 38c-1 0-2 1-2 2s1 2 2 2h38c1 0 2-1 2-2s-1-2-2-2H39Z" fill="#fff" opacity=".95"/>
+  </g>
+</svg>
