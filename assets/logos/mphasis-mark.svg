@@ -1,0 +1,8 @@
+<svg viewBox="9 14 110 77" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mphasis">
+  <defs>
+    <linearGradient id="cool" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#00AEEF"/><stop offset="1" stop-color="#63C98E"/></linearGradient>
+    <linearGradient id="warm" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#EF4B91"/><stop offset="1" stop-color="#6A3FA0"/></linearGradient>
+  </defs>
+  <path d="M14 67 43 19c3-5 11-5 14 0l16 27-12 20-11-19-22 37c-5 8-18 2-14-7Z" fill="url(#cool)"/>
+  <path d="m44 81 28-48c3-5 11-5 14 0l16 27-12 20-11-19-22 37c-5 8-18 2-13-7Z" fill="url(#warm)"/>
+</svg>

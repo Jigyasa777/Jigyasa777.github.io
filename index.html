@@ -1,271 +1,322 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Primary Meta Tags (populated by JS from site-config.json) -->
-    <title>Portfolio</title>
-    <meta name="description" content="">
-    <meta name="robots" content="index, follow">
-
-    <!-- Preconnect to external domains -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
-
-    <!-- Fonts: Space Grotesk, Space Mono, Caveat -->
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Space+Mono:wght@400;700&family=Caveat:wght@400;700&display=swap" rel="stylesheet">
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
-
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jigyasa Kang — data engineer building cloud-native pipelines and lakehouse platforms for healthcare, banking, and e-commerce. Epic Caboodle, Clarity, and Cogito certified.">
+  <title>Jigyasa Kang — Data Engineer</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,400..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to main content</a>
 
-    <!-- ================================================================
-         LOADING SCREEN
-         ================================================================ -->
-    <div class="loader-overlay">
-        <div class="loader-shapes">
-            <div class="loader-shape-svg loader-shape-1">
-                <svg width="80" height="80" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="6" y="6" width="88" height="88" rx="8" fill="#66d9ef" stroke="#000" stroke-width="4"/>
-                    <rect x="3" y="3" width="88" height="88" rx="8" fill="#66d9ef" stroke="#000" stroke-width="4"/>
-                    <path d="M35 40 L20 50 L35 60" stroke="#000" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M65 40 L80 50 L65 60" stroke="#000" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-                    <line x1="55" y1="35" x2="45" y2="65" stroke="#000" stroke-width="5" stroke-linecap="round"/>
-                </svg>
-            </div>
-            <div class="loader-shape-svg loader-shape-2">
-                <svg width="80" height="80" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="6" y="6" width="88" height="88" rx="8" fill="#ffd93d" stroke="#000" stroke-width="4"/>
-                    <rect x="3" y="3" width="88" height="88" rx="8" fill="#ffd93d" stroke="#000" stroke-width="4"/>
-                    <path d="M25 35 L40 50 L25 65" stroke="#000" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-                    <line x1="50" y1="65" x2="75" y2="65" stroke="#000" stroke-width="5" stroke-linecap="round"/>
-                </svg>
-            </div>
-            <div class="loader-shape-svg loader-shape-3">
-                <svg width="80" height="80" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="6" y="6" width="88" height="88" rx="8" fill="#a8e6cf" stroke="#000" stroke-width="4"/>
-                    <rect x="3" y="3" width="88" height="88" rx="8" fill="#a8e6cf" stroke="#000" stroke-width="4"/>
-                    <rect x="20" y="20" width="60" height="60" rx="3" fill="#ffd93d" stroke="#000" stroke-width="4"/>
-                    <rect x="30" y="20" width="40" height="20" fill="#66d9ef" stroke="#000" stroke-width="3"/>
-                    <rect x="35" y="55" width="30" height="15" rx="2" fill="#000"/>
-                    <circle cx="50" cy="35" r="3" fill="#000"/>
-                </svg>
-            </div>
+  <header class="masthead" id="top">
+    <a class="wordmark" href="#top">Jigyasa Kang</a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="masthead-nav" aria-label="Main">
+      <a href="#work">Work</a>
+      <a href="#repositories">Repositories</a>
+      <a href="#credentials">Credentials</a>
+      <a href="#toolkit">Toolkit</a>
+      <a class="nav-contact" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <nav class="spine" aria-label="Sections">
+    <span class="spine-rail" aria-hidden="true"><i class="spine-packet"></i></span>
+    <ol>
+      <li><a href="#approach" data-spine="approach"><span class="spine-dot"></span><span class="spine-label">Approach</span></a></li>
+      <li><a href="#work" data-spine="work"><span class="spine-dot"></span><span class="spine-label">Work</span></a></li>
+      <li><a href="#repositories" data-spine="repositories"><span class="spine-dot"></span><span class="spine-label">Repositories</span></a></li>
+      <li><a href="#credentials" data-spine="credentials"><span class="spine-dot"></span><span class="spine-label">Credentials</span></a></li>
+      <li><a href="#toolkit" data-spine="toolkit"><span class="spine-dot"></span><span class="spine-label">Toolkit</span></a></li>
+      <li><a href="#contact" data-spine="contact"><span class="spine-dot"></span><span class="spine-label">Contact</span></a></li>
+    </ol>
+  </nav>
+
+  <main id="main" tabindex="-1">
+
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="horizon" aria-hidden="true">
+        <span class="horizon-grid"></span>
+        <span class="horizon-line"></span>
+      </div>
+      <div class="shell">
+        <p class="meta-line">Data engineer <span>/</span> United States <span>/</span> Open to opportunities</p>
+        <h1 id="hero-title">Five hours to <em>forty&#8209;five&nbsp;minutes.</em></h1>
+        <p class="lede">That's how long patient-care data now takes to land at Ballad Health. I build cloud-native pipelines for healthcare, banking, and e-commerce &mdash; and the quality, governance, and observability layers that decide whether anyone trusts what comes out the other end.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="mailto:jigyasa17034@gmail.com">Email me</a>
+          <a class="btn btn-ghost" href="https://linkedin.com/in/jigyasa-kang-j7" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="btn btn-ghost" href="https://github.com/Jigyasa777" target="_blank" rel="noreferrer">GitHub</a>
         </div>
-        <div class="loader-wrapper">
-            <!-- Initials populated by JS from site-config.json -->
-            <div class="loader-letter">P</div>
-            <div class="loader-letter">F</div>
+      </div>
+    </section>
+
+    <section class="readout" aria-label="Key figures">
+      <div class="shell readout-grid">
+        <div class="readout-item">
+          <p class="readout-value">35M</p>
+          <p class="readout-label">Healthcare and claims events processed each month</p>
         </div>
-        <div class="loader-progress-bar">
-            <div class="loader-progress-fill"></div>
+        <div class="readout-item">
+          <p class="readout-value">1,200+</p>
+          <p class="readout-label">Clinicians, analysts, and operational teams served by the platform</p>
         </div>
+        <div class="readout-item">
+          <p class="readout-value">45%</p>
+          <p class="readout-label">Reduction in mean time to recovery on critical pipelines</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="approach" aria-labelledby="approach-title">
+      <div class="shell split">
+        <div class="split-head">
+          <p class="section-label">Approach</p>
+          <h2 id="approach-title">What I actually do</h2>
+
+          <svg class="flow" viewBox="0 0 400 340" role="img" aria-labelledby="flow-title flow-desc">
+            <title id="flow-title">A healthcare data pipeline, stage by stage</title>
+            <desc id="flow-desc">Sources feed ingestion, which lands in a lakehouse, passes a data quality gate, and is served to analytics and AI.</desc>
+            <line class="flow-rail" x1="13" y1="26" x2="13" y2="314"></line>
+
+            <circle class="flow-node" cx="13" cy="26" r="6"></circle>
+            <text class="flow-title" x="40" y="24">SOURCES</text>
+            <text class="flow-sub" x="40" y="41">EHR · claims · clinical</text>
+
+            <circle class="flow-node" cx="13" cy="98" r="6"></circle>
+            <text class="flow-title" x="40" y="96">INGEST</text>
+            <text class="flow-sub" x="40" y="113">Kafka · Glue · structured streaming</text>
+
+            <circle class="flow-node" cx="13" cy="170" r="6"></circle>
+            <text class="flow-title" x="40" y="168">LAKEHOUSE</text>
+            <text class="flow-sub" x="40" y="185">Delta Lake · Snowflake</text>
+
+            <circle class="flow-node flow-node--gate" cx="13" cy="242" r="7"></circle>
+            <text class="flow-title flow-title--gate" x="40" y="240">QUALITY GATE</text>
+            <text class="flow-sub" x="40" y="257">Great Expectations · Unity Catalog</text>
+
+            <circle class="flow-node" cx="13" cy="314" r="6"></circle>
+            <text class="flow-title" x="40" y="312">SERVE</text>
+            <text class="flow-sub" x="40" y="329">Analytics · RAG · Power BI</text>
+          </svg>
+        </div>
+        <div class="split-body">
+          <p>I design the layer between raw operational data and the people who have to act on it: batch and streaming ETL, lakehouse architecture, and the data quality and governance work that decides whether the output gets trusted or quietly worked around.</p>
+          <p>Most of that has been in healthcare, where a late number or a wrong join has consequences beyond a dashboard. It shapes how I build &mdash; observability from the start, reconciliation by default, and pipelines that fail loudly instead of silently passing bad data downstream.</p>
+          <p>Lately it also includes AI-assisted data engineering: retrieval-augmented search over clinical documentation, automated metadata discovery. The hard part there isn't getting a model to answer. It's governing the data underneath well enough that the answer is worth having.</p>
+          <ul class="capability-list">
+            <li>Lakehouse architecture</li>
+            <li>Streaming and batch pipelines</li>
+            <li>Data quality and governance</li>
+            <li>AI-assisted data products</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="work" aria-labelledby="work-title">
+      <div class="shell">
+        <div class="section-head">
+          <p class="section-label">Work</p>
+          <h2 id="work-title">Where the pipelines run</h2>
+        </div>
+
+        <ol class="stages">
+          <li class="stage">
+            <div class="stage-when">
+              <p class="stage-dates">Oct 2025 &mdash; Present</p>
+              <p class="stage-place"><img class="stage-mark" src="assets/logos/ballad-mark.svg" alt="" aria-hidden="true" width="30" height="30"><span>Ballad Health</span></p>
+              <p class="stage-loc">United States</p>
+            </div>
+            <div class="stage-what">
+              <h3>Data Engineer</h3>
+              <p>Architecting cloud-native healthcare data platforms that consolidate EHR, claims, and clinical datasets into AI-ready lakehouse architectures.</p>
+              <ul class="outcomes">
+                <li>Cut end-to-end data latency from <strong>five hours to under 45 minutes</strong> for patient-care analytics, across <strong>35 million healthcare events a month</strong>.</li>
+                <li>Improved data availability for <strong>more than 1,200 clinicians, analysts, and operational teams</strong>.</li>
+                <li>Reduced MTTR on critical pipelines by <strong>45%</strong> and cloud infrastructure cost by <strong>28%</strong> through governance, observability, and Spark workload tuning.</li>
+                <li>Built AI-assisted clinical data discovery with RAG, LangChain, and Claude, cutting manual investigation effort by <strong>40%</strong>.</li>
+              </ul>
+              <p class="stack">AWS &middot; Databricks &middot; PySpark &middot; Delta Lake &middot; Snowflake &middot; Airflow &middot; Great Expectations &middot; Unity Catalog</p>
+            </div>
+          </li>
+
+          <li class="stage">
+            <div class="stage-when">
+              <p class="stage-dates">Jul 2025 &mdash; Sep 2025</p>
+              <p class="stage-place"><img class="stage-mark" src="assets/logos/elevance-mark.svg" alt="" aria-hidden="true" width="30" height="30"><span>Elevance Health</span></p>
+              <p class="stage-loc">United States</p>
+            </div>
+            <div class="stage-what">
+              <h3>Data Engineer Intern</h3>
+              <p>Built ETL workflows for member claims, eligibility, and healthcare transaction datasets supporting regulatory reporting across multiple health plan systems.</p>
+              <ul class="outcomes">
+                <li>Automated reconciliation and SQL query optimisation, cutting manual validation effort by <strong>30%</strong>.</li>
+                <li>Built <strong>HIPAA-aligned</strong> data quality and compliance checks across member and claims datasets.</li>
+              </ul>
+              <p class="stack">Python &middot; AWS Glue &middot; S3 &middot; Snowflake &middot; Great Expectations</p>
+            </div>
+          </li>
+
+          <li class="stage">
+            <div class="stage-when">
+              <p class="stage-dates">Jan 2021 &mdash; Jul 2023</p>
+              <p class="stage-place"><img class="stage-mark" src="assets/logos/mphasis-mark.svg" alt="" aria-hidden="true" width="30" height="30"><span>Mphasis</span></p>
+              <p class="stage-loc">India</p>
+            </div>
+            <div class="stage-what">
+              <h3>Data Engineer</h3>
+              <p>Delivered batch and real-time pipelines for customer, order, inventory, and seller datasets powering enterprise-wide analytics and operational reporting.</p>
+              <ul class="outcomes">
+                <li>Processed more than <strong>120 million e-commerce events daily</strong> through Spark Structured Streaming and Delta Lake.</li>
+                <li>Reduced end-to-end pipeline execution time by <strong>38%</strong> by modernising legacy batch workflows onto AWS.</li>
+                <li>Established automated data quality, metadata management, and CI/CD deployment to cut production defects.</li>
+              </ul>
+              <p class="stack">Spark &middot; Kafka &middot; Hive &middot; Hadoop &middot; EMR &middot; Redshift &middot; PostgreSQL &middot; Terraform &middot; Jenkins</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="repositories" aria-labelledby="repositories-title">
+      <div class="shell">
+        <div class="section-head">
+          <p class="section-label">Repositories</p>
+          <h2 id="repositories-title">Public code</h2>
+          <p class="section-note">Smaller analytics builds where the code is open to read. Production work sits in private company repositories.</p>
+        </div>
+
+        <div class="repo-grid">
+          <a class="repo" href="https://github.com/Jigyasa777/retail-data-analytics-project-python-sql-integration" target="_blank" rel="noreferrer">
+            <img class="repo-media" src="assets/img/project-retail.webp" alt="" width="900" height="600" loading="lazy" decoding="async">
+            <div class="repo-body">
+              <h3>Retail data analytics</h3>
+              <p>Python and SQL working together across a retail analytics workflow, from raw transactions to reportable measures.</p>
+              <p class="stack">Python &middot; SQL &middot; Jupyter</p>
+              <span class="repo-cta">View repository</span>
+            </div>
+          </a>
+          <a class="repo" href="https://github.com/Jigyasa777/data-analytics-customer-segmentation" target="_blank" rel="noreferrer">
+            <img class="repo-media" src="assets/img/project-segmentation.webp" alt="" width="900" height="600" loading="lazy" decoding="async">
+            <div class="repo-body">
+              <h3>Customer segmentation</h3>
+              <p>Segmenting customer data into groups that a marketing or product team can actually act on.</p>
+              <p class="stack">Python &middot; Jupyter</p>
+              <span class="repo-cta">View repository</span>
+            </div>
+          </a>
+          <a class="repo" href="https://github.com/Jigyasa777/customer-trends-data-analysis-sql-python-powerbi" target="_blank" rel="noreferrer">
+            <img class="repo-media" src="assets/img/project-trends.webp" alt="" width="900" height="600" loading="lazy" decoding="async">
+            <div class="repo-body">
+              <h3>Customer trends analysis</h3>
+              <p>SQL, Python, and Power BI combined to trace customer behaviour trends over time.</p>
+              <p class="stack">SQL &middot; Python &middot; Power BI</p>
+              <span class="repo-cta">View repository</span>
+            </div>
+          </a>
+        </div>
+
+        <a class="text-link" href="https://github.com/Jigyasa777?tab=repositories" target="_blank" rel="noreferrer">All repositories on GitHub</a>
+      </div>
+    </section>
+
+    <section class="section" id="credentials" aria-labelledby="credentials-title">
+      <div class="shell split">
+        <div class="split-head">
+          <p class="section-label">Credentials</p>
+          <h2 id="credentials-title">Certified where it counts</h2>
+        </div>
+        <div class="split-body">
+          <div class="cred-block">
+            <h3>Epic certifications</h3>
+            <ul class="cred-list">
+              <li>Caboodle Data Model</li>
+              <li>Clarity Data Model</li>
+              <li>Cogito</li>
+              <li>Clinical Data Model</li>
+              <li>Revenue Data Model</li>
+            </ul>
+          </div>
+          <div class="cred-block">
+            <h3>Also certified</h3>
+            <ul class="cred-list">
+              <li>CompTIA Security+</li>
+              <li>Google Data Analytics</li>
+            </ul>
+          </div>
+          <div class="cred-block">
+            <h3>Education</h3>
+            <ul class="cred-list cred-list-stacked">
+              <li><strong>MS, Information Systems</strong><span>East Tennessee State University &middot; May 2025</span></li>
+              <li><strong>Bachelor of Computer Applications</strong><span>Amity University &middot; May 2022</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="toolkit" aria-labelledby="toolkit-title">
+      <div class="shell">
+        <div class="section-head">
+          <p class="section-label">Toolkit</p>
+          <h2 id="toolkit-title">Tools, grouped by job</h2>
+        </div>
+        <dl class="toolkit">
+          <div class="tool-group">
+            <dt>Languages</dt>
+            <dd>Python, SQL, PySpark</dd>
+          </div>
+          <div class="tool-group">
+            <dt>Processing &amp; streaming</dt>
+            <dd>Apache Spark, Spark Structured Streaming, Kafka, Delta Lake, Hive, Hadoop</dd>
+          </div>
+          <div class="tool-group">
+            <dt>Platforms &amp; storage</dt>
+            <dd>Databricks, Snowflake, AWS (S3, Glue, Lambda, EMR, CloudWatch), Redshift, PostgreSQL</dd>
+          </div>
+          <div class="tool-group">
+            <dt>Orchestration &amp; DevOps</dt>
+            <dd>Airflow, Docker, Kubernetes, Terraform, Jenkins, GitHub Actions, CI/CD</dd>
+          </div>
+          <div class="tool-group">
+            <dt>Governance &amp; quality</dt>
+            <dd>Great Expectations, Unity Catalog, data lineage, metadata management, MTTR reduction</dd>
+          </div>
+          <div class="tool-group">
+            <dt>AI &amp; analytics</dt>
+            <dd>OpenAI API, Claude AI, LangChain, RAG, vector embeddings, Power BI</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="shell">
+        <p class="section-label">Contact</p>
+        <h2 id="contact-title">Open to data engineering roles</h2>
+        <a class="contact-email" href="mailto:jigyasa17034@gmail.com">jigyasa17034@gmail.com</a>
+        <p class="contact-note">Usually replies within one business day.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="colophon">
+    <div class="shell colophon-inner">
+      <span>&copy; 2026 Jigyasa Kang</span>
+      <span>United States</span>
+      <a href="https://github.com/Jigyasa777" target="_blank" rel="noreferrer">GitHub</a>
+      <a href="https://linkedin.com/in/jigyasa-kang-j7" target="_blank" rel="noreferrer">LinkedIn</a>
     </div>
+  </footer>
 
-    <!-- ================================================================
-         PAGE WRAPPER
-         ================================================================ -->
-    <div class="page-wrapper">
-
-        <!-- Progress Bar -->
-        <div class="progress-bar-container">
-            <div class="progress-bar-fill"></div>
-            <div class="progress-checkpoints">
-                <!-- Populated by JS from site-config.json -->
-            </div>
-        </div>
-
-        <!-- ============================================================
-             NAVBAR (populated by JS from navigation.json)
-             ============================================================ -->
-        <nav class="navbar">
-            <div class="nav-content">
-                <a href="#" class="nav-brand">PF</a>
-                <div class="nav-right">
-                    <!-- Populated by JS -->
-                </div>
-            </div>
-        </nav>
-
-        <!-- ============================================================
-             HERO SECTION (populated by JS from hero.json)
-             ============================================================ -->
-        <section class="hero" id="hero">
-            <div class="hero-content">
-                <div class="hero-left">
-                    <p class="hero-greeting" id="hero-greeting"></p>
-                    <h1 class="hero-name"></h1>
-                    <p class="hero-description"></p>
-                    <div class="hero-social">
-                        <!-- Populated by JS -->
-                    </div>
-                    <div class="hero-cta-container">
-                        <a href="#contact" class="btn-cta">Get in Touch!</a>
-                    </div>
-                </div>
-                <div class="hero-right">
-                    <div class="hero-image-wrapper">
-                        <div class="tape-sticker"></div>
-                        <!-- Avatar or placeholder populated by JS -->
-                        <div class="deco-code">
-                            <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="6" y="6" width="88" height="88" rx="8" fill="#66d9ef" stroke="#000" stroke-width="4"/>
-                                <rect x="3" y="3" width="88" height="88" rx="8" fill="#66d9ef" stroke="#000" stroke-width="4"/>
-                                <path d="M35 40 L20 50 L35 60" stroke="#000" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M65 40 L80 50 L65 60" stroke="#000" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <line x1="55" y1="35" x2="45" y2="65" stroke="#000" stroke-width="5" stroke-linecap="round"/>
-                            </svg>
-                        </div>
-                        <div class="deco-terminal">
-                            <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="6" y="6" width="88" height="88" rx="8" fill="#ffd93d" stroke="#000" stroke-width="4"/>
-                                <rect x="3" y="3" width="88" height="88" rx="8" fill="#ffd93d" stroke="#000" stroke-width="4"/>
-                                <path d="M25 35 L40 50 L25 65" stroke="#000" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <line x1="50" y1="65" x2="75" y2="65" stroke="#000" stroke-width="5" stroke-linecap="round"/>
-                            </svg>
-                        </div>
-                        <div class="deco-floppy">
-                            <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="6" y="6" width="88" height="88" rx="8" fill="#a8e6cf" stroke="#000" stroke-width="4"/>
-                                <rect x="3" y="3" width="88" height="88" rx="8" fill="#a8e6cf" stroke="#000" stroke-width="4"/>
-                                <rect x="20" y="20" width="60" height="60" rx="3" fill="#ffd93d" stroke="#000" stroke-width="4"/>
-                                <rect x="30" y="20" width="40" height="20" fill="#66d9ef" stroke="#000" stroke-width="3"/>
-                                <rect x="35" y="55" width="30" height="15" rx="2" fill="#000"/>
-                                <circle cx="50" cy="35" r="3" fill="#000"/>
-                            </svg>
-                        </div>
-                        <div class="deco-label"></div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Terminal Block (key feature from marjoballabani.me) -->
-            <div class="terminal-block">
-                <div class="terminal-header">
-                    <div class="terminal-dot red"></div>
-                    <div class="terminal-dot yellow"></div>
-                    <div class="terminal-dot green"></div>
-                    <span class="terminal-title">portfolio ~ terminal</span>
-                </div>
-                <div class="terminal-body">
-                    <!-- Populated by JS from hero.json terminalCommands -->
-                </div>
-            </div>
-
-            <!-- Tech Badges -->
-            <div class="tech-badges" style="margin-top: 2rem;">
-                <!-- Populated by JS from hero.json -->
-            </div>
-        </section>
-
-        <!-- ============================================================
-             PAPER TEAR DIVIDER (between hero and content)
-             ============================================================ -->
-        <div class="paper-tear paper-tear-top">
-            <svg width="100%" height="30" viewBox="0 0 1440 30" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0,0 L0,15 Q10,5 20,15 T40,15 Q50,5 60,15 T80,15 Q90,20 100,15 T120,15 Q130,10 140,15 T160,15 Q170,5 180,15 T200,15 Q210,20 220,15 T240,15 Q250,8 260,15 T280,15 Q290,18 300,15 T320,15 Q330,5 340,15 T360,15 Q370,12 380,15 T400,15 Q410,20 420,15 T440,15 Q450,6 460,15 T480,15 Q490,16 500,15 T520,15 Q530,8 540,15 T560,15 Q570,20 580,15 T600,15 Q610,10 620,15 T640,15 Q650,5 660,15 T680,15 Q690,18 700,15 T720,15 Q730,12 740,15 T760,15 Q770,7 780,15 T800,15 Q810,20 820,15 T840,15 Q850,9 860,15 T880,15 Q890,14 900,15 T920,15 Q930,6 940,15 T960,15 Q970,19 980,15 T1000,15 Q1010,11 1020,15 T1040,15 Q1050,5 1060,15 T1080,15 Q1090,17 1100,15 T1120,15 Q1130,8 1140,15 T1160,15 Q1170,13 1180,15 T1200,15 Q1210,20 1220,15 T1240,15 Q1250,7 1260,15 T1280,15 Q1290,16 1300,15 T1320,15 Q1330,10 1340,15 T1360,15 Q1370,5 1380,15 T1400,15 Q1410,18 1420,15 T1440,15 L1440,0 Z" fill="#ffffff" stroke="none"/>
-                <path d="M0,30 L0,15 Q10,5 20,15 T40,15 Q50,5 60,15 T80,15 Q90,20 100,15 T120,15 Q130,10 140,15 T160,15 Q170,5 180,15 T200,15 Q210,20 220,15 T240,15 Q250,8 260,15 T280,15 Q290,18 300,15 T320,15 Q330,5 340,15 T360,15 Q370,12 380,15 T400,15 Q410,20 420,15 T440,15 Q450,6 460,15 T480,15 Q490,16 500,15 T520,15 Q530,8 540,15 T560,15 Q570,20 580,15 T600,15 Q610,10 620,15 T640,15 Q650,5 660,15 T680,15 Q690,18 700,15 T720,15 Q730,12 740,15 T760,15 Q770,7 780,15 T800,15 Q810,20 820,15 T840,15 Q850,9 860,15 T880,15 Q890,14 900,15 T920,15 Q930,6 940,15 T960,15 Q970,19 980,15 T1000,15 Q1010,11 1020,15 T1040,15 Q1050,5 1060,15 T1080,15 Q1090,17 1100,15 T1120,15 Q1130,8 1140,15 T1160,15 Q1170,13 1180,15 T1200,15 Q1210,20 1220,15 T1240,15 Q1250,7 1260,15 T1280,15 Q1290,16 1300,15 T1320,15 Q1330,10 1340,15 T1360,15 Q1370,5 1380,15 T1400,15 Q1410,18 1420,15 T1440,15 L1440,30 Z" fill="#d0d0d0" stroke="none"/>
-                <path d="M0,15 Q10,5 20,15 T40,15 Q50,5 60,15 T80,15 Q90,20 100,15 T120,15 Q130,10 140,15 T160,15 Q170,5 180,15 T200,15 Q210,20 220,15 T240,15 Q250,8 260,15 T280,15 Q290,18 300,15 T320,15 Q330,5 340,15 T360,15 Q370,12 380,15 T400,15 Q410,20 420,15 T440,15 Q450,6 460,15 T480,15 Q490,16 500,15 T520,15 Q530,8 540,15 T560,15 Q570,20 580,15 T600,15 Q610,10 620,15 T640,15 Q650,5 660,15 T680,15 Q690,18 700,15 T720,15 Q730,12 740,15 T760,15 Q770,7 780,15 T800,15 Q810,20 820,15 T840,15 Q850,9 860,15 T880,15 Q890,14 900,15 T920,15 Q930,6 940,15 T960,15 Q970,19 980,15 T1000,15 Q1010,11 1020,15 T1040,15 Q1050,5 1060,15 T1080,15 Q1090,17 1100,15 T1120,15 Q1130,8 1140,15 T1160,15 Q1170,13 1180,15 T1200,15 Q1210,20 1220,15 T1240,15 Q1250,7 1260,15 T1280,15 Q1290,16 1300,15 T1320,15 Q1330,10 1340,15 T1360,15 Q1370,5 1380,15 T1400,15 Q1410,18 1420,15 T1440,15" fill="none" stroke="var(--border)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-        </div>
-
-        <div class="page-gap"></div>
-
-        <div class="paper-tear paper-tear-bottom">
-            <svg width="100%" height="30" viewBox="0 0 1440 30" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0,0 L0,15 Q10,5 20,15 T40,15 Q50,5 60,15 T80,15 Q90,20 100,15 T120,15 Q130,10 140,15 T160,15 Q170,5 180,15 T200,15 Q210,20 220,15 T240,15 Q250,8 260,15 T280,15 Q290,18 300,15 T320,15 Q330,5 340,15 T360,15 Q370,12 380,15 T400,15 Q410,20 420,15 T440,15 Q450,6 460,15 T480,15 Q490,16 500,15 T520,15 Q530,8 540,15 T560,15 Q570,20 580,15 T600,15 Q610,10 620,15 T640,15 Q650,5 660,15 T680,15 Q690,18 700,15 T720,15 Q730,12 740,15 T760,15 Q770,7 780,15 T800,15 Q810,20 820,15 T840,15 Q850,9 860,15 T880,15 Q890,14 900,15 T920,15 Q930,6 940,15 T960,15 Q970,19 980,15 T1000,15 Q1010,11 1020,15 T1040,15 Q1050,5 1060,15 T1080,15 Q1090,17 1100,15 T1120,15 Q1130,8 1140,15 T1160,15 Q1170,13 1180,15 T1200,15 Q1210,20 1220,15 T1240,15 Q1250,7 1260,15 T1280,15 Q1290,16 1300,15 T1320,15 Q1330,10 1340,15 T1360,15 Q1370,5 1380,15 T1400,15 Q1410,18 1420,15 T1440,15 L1440,0 Z" fill="#d0d0d0" stroke="none"/>
-                <path d="M0,30 L0,15 Q10,5 20,15 T40,15 Q50,5 60,15 T80,15 Q90,20 100,15 T120,15 Q130,10 140,15 T160,15 Q170,5 180,15 T200,15 Q210,20 220,15 T240,15 Q250,8 260,15 T280,15 Q290,18 300,15 T320,15 Q330,5 340,15 T360,15 Q370,12 380,15 T400,15 Q410,20 420,15 T440,15 Q450,6 460,15 T480,15 Q490,16 500,15 T520,15 Q530,8 540,15 T560,15 Q570,20 580,15 T600,15 Q610,10 620,15 T640,15 Q650,5 660,15 T680,15 Q690,18 700,15 T720,15 Q730,12 740,15 T760,15 Q770,7 780,15 T800,15 Q810,20 820,15 T840,15 Q850,9 860,15 T880,15 Q890,14 900,15 T920,15 Q930,6 940,15 T960,15 Q970,19 980,15 T1000,15 Q1010,11 1020,15 T1040,15 Q1050,5 1060,15 T1080,15 Q1090,17 1100,15 T1120,15 Q1130,8 1140,15 T1160,15 Q1170,13 1180,15 T1200,15 Q1210,20 1220,15 T1240,15 Q1250,7 1260,15 T1280,15 Q1290,16 1300,15 T1320,15 Q1330,10 1340,15 T1360,15 Q1370,5 1380,15 T1400,15 Q1410,18 1420,15 T1440,15 L1440,30 Z" fill="#ffffff" stroke="none"/>
-                <path d="M0,15 Q10,5 20,15 T40,15 Q50,5 60,15 T80,15 Q90,20 100,15 T120,15 Q130,10 140,15 T160,15 Q170,5 180,15 T200,15 Q210,20 220,15 T240,15 Q250,8 260,15 T280,15 Q290,18 300,15 T320,15 Q330,5 340,15 T360,15 Q370,12 380,15 T400,15 Q410,20 420,15 T440,15 Q450,6 460,15 T480,15 Q490,16 500,15 T520,15 Q530,8 540,15 T560,15 Q570,20 580,15 T600,15 Q610,10 620,15 T640,15 Q650,5 660,15 T680,15 Q690,18 700,15 T720,15 Q730,12 740,15 T760,15 Q770,7 780,15 T800,15 Q810,20 820,15 T840,15 Q850,9 860,15 T880,15 Q890,14 900,15 T920,15 Q930,6 940,15 T960,15 Q970,19 980,15 T1000,15 Q1010,11 1020,15 T1040,15 Q1050,5 1060,15 T1080,15 Q1090,17 1100,15 T1120,15 Q1130,8 1140,15 T1160,15 Q1170,13 1180,15 T1200,15 Q1210,20 1220,15 T1240,15 Q1250,7 1260,15 T1280,15 Q1290,16 1300,15 T1320,15 Q1330,10 1340,15 T1360,15 Q1370,5 1380,15 T1400,15 Q1410,18 1420,15 T1440,15" fill="none" stroke="var(--border)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-        </div>
-
-        <div class="tear-tape-sticker"></div>
-
-        <!-- ============================================================
-             MAIN CONTENT SECTIONS
-             ============================================================ -->
-        <div class="container">
-
-            <!-- ABOUT (populated by JS from about.json) -->
-            <section class="section" id="about">
-                <h2 class="section-title">ABOUT</h2>
-                <div class="card"><!-- Populated by JS --></div>
-            </section>
-
-            <!-- EXPERIENCE (populated by JS from experience.json) -->
-            <section class="section journey-section" id="experience">
-                <h2 class="section-title-center">My Journey</h2>
-                <div class="journey-container">
-                    <div class="journey-timeline">
-                        <h3 class="timeline-header">Journey Timeline</h3>
-                        <div class="timeline-list"><!-- Populated by JS --></div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- SKILLS (populated by JS from skills.json) -->
-            <section class="section" id="skills">
-                <h2 class="section-title">SKILLS</h2>
-                <div class="skills-grid-modern"><!-- Populated by JS --></div>
-            </section>
-
-            <!-- PROJECTS (populated by JS from projects.json) -->
-            <section class="section" id="projects">
-                <h2 class="section-title">Projects</h2>
-                <div class="projects-grid"><!-- Populated by JS --></div>
-            </section>
-
-            <!-- EDUCATION & LANGUAGES (populated by JS from education.json) -->
-            <section class="section education-languages-section">
-                <div class="education-languages-grid">
-                    <div class="education-column">
-                        <h2 class="section-title">EDUCATION</h2>
-                        <div class="card education-card"><!-- Populated by JS --></div>
-                    </div>
-                    <div class="languages-column">
-                        <h2 class="section-title">LANGUAGES</h2>
-                        <div class="card languages-card"><!-- Populated by JS --></div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- CONTACT (populated by JS from contact.json) -->
-            <section class="section" id="contact">
-                <h2 class="section-title">GET IN TOUCH</h2>
-                <div class="contact-container-compact">
-                    <p class="contact-intro"></p>
-                    <div class="contact-grid"><!-- Populated by JS --></div>
-                </div>
-            </section>
-
-            <!-- FOOTER (populated by JS from footer.json) -->
-            <footer class="footer">
-                <div class="footer-compact">
-                    <div class="footer-main">
-                        <div class="footer-brand-compact">
-                            <strong></strong>
-                            <span></span>
-                        </div>
-                        <div class="footer-nav-compact"><!-- Populated by JS --></div>
-                        <div class="footer-social-compact"><!-- Populated by JS --></div>
-                    </div>
-                    <div class="footer-bottom-compact">
-                        <span class="footer-copyright"></span>
-                    </div>
-                </div>
-            </footer>
-
-        </div>
-    </div>
-
-    <!-- Main Script -->
-    <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
